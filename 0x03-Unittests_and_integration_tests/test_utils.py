@@ -4,6 +4,7 @@
 """
 
 import unittest
+from unittest.mock import patch, Mock
 from utils import access_nested_map
 from parameterized import parameterized
 
